@@ -1,0 +1,234 @@
+/*used to sticky footer at bottom of page*/
+html, body{
+	height: 100%;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+    background-image: url("../images/skin_side_up.png");
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777777;
+    display: flex;
+    flex-direction: column;	
+
+}
+
+/*class selector for setting width of page*/
+.bwidth {
+	width: 960px;
+	margin: 0 auto;
+}
+/*class selector for portfolio page*/
+h1, h2, h3, .hover {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+
+}
+
+header{
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	height: 90px;
+}
+/*name box within the header*/
+header h1{
+float: left;
+height: 90px;
+background-color: #4aaaa5;
+color: #ffffff;
+margin: 0px;
+padding: 0px 40px;
+line-height: 94px;
+font-size: 26px;
+
+}
+
+header nav {
+	position: relative;
+	top: 40px;
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	list-style: none;
+	overflow: none;
+}
+
+header nav ul li{
+	float: left;
+	border-right: 1px solid #eeeeee;
+	}
+header nav ul li:last-child {
+	border-right: none;
+}
+
+
+header nav ul li a {
+	display: block;
+	padding: 0px 15px;
+	color: #aaaaaa;
+	text-align: center;
+	font-size: 18px;
+}
+/*article tab was used to float about me section, contact form, and portfolio pplaceholder*/
+article
+{
+	float: left;
+	width: 650px;
+	margin: 40px 0px;
+	background-color: #ffffff;
+	line-height: 150%
+	padding: 20px;
+	border: 1px solid #dddddd;
+}
+/*#rob-pic is asigning image id to about me image*/
+article #rob-pic { 
+margin: 5px 25px 15px 0px;
+width: 200px;
+height: 275px;
+float: left;
+}
+article h2{
+	margin: 5px 20px 20px 0px;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+	font-size: 26px;
+	
+}
+/*using aside tag and floating right for the "connect with me" section*/
+aside {
+	float: right;
+	width: 270px;
+	margin: 40px 0px ;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	background-color: #ffffff;
+}
+aside h3{
+margin: 5px 20px 20px 0px;
+border-bottom: 2px solid #cccccc;
+padding-bottom: 20px;
+font-size: 22px
+}
+
+aside nav ul{
+	list-style: none;
+	padding: 0; 
+}
+
+aside nav ul li {
+	float: left;
+	padding-left: 15px;
+}
+
+aside nav ul li:last-child {
+	padding-right: 0px;
+
+}
+aside nav ul li a img {
+	width: 60px;
+	height: 60px;
+
+}
+
+/*Contact Form*/
+form label{
+	font-size: 18px;
+	margin-bottom: 5px;
+	display: round;
+}
+
+form input,
+form select,
+form textarea
+ {
+	font-size: 14px;
+	width: 94%;
+	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+form textarea{
+	height: auto;
+}
+
+form #submit {
+	font-size: 15px;
+	height: 40px;
+	width: 130px;
+	color: #ffffff;
+	border: none;
+	display: round;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background-color: #bebebe;
+}
+
+form #submit:hover {
+	background-color: #a9a9a9;
+
+}
+
+figure
+{
+	margin: 0;
+}
+figure ul{
+	padding: 0;
+	list-style:none;
+}
+
+figure ul li {
+	padding: 12px 38px 44px 0px;
+	width: 275px;
+	height: 200px;
+	float: left;
+}
+
+figure ul li:nth-child(even)  {
+	padding-right: 0px;
+}
+figure ul li a {
+	position: relative;
+}
+
+figure ul li a .hover {
+	position: absolute;
+	bottom: 12px;
+	left: 0px;
+	padding: 15px 0px;
+	width: 98.5%;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 20px;
+	text-align: center;
+	overflow: hidden;
+	display: block;
+}
+
+
+figure ul li a img{
+	height: 100%;
+	width: 100%;
+}
+
+
+/*css for footer*/
+footer { 
+	clear: both;
+	border-top: 6px solid #4aaaa5;
+	padding: 20px;
+	background-color: #666666;
+	font-color: #aaaaaa;
+	font-size: 12px;
+	text-align: center;
+
+}
