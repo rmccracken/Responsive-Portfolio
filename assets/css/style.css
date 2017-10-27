@@ -66,6 +66,7 @@ header nav ul li{
 	float: left;
 	border-right: 1px solid #eeeeee;
 	}
+	/*prevents last item from having a boarder on the right*/
 header nav ul li:last-child {
 	border-right: none;
 }
@@ -118,7 +119,7 @@ border-bottom: 2px solid #cccccc;
 padding-bottom: 20px;
 font-size: 22px
 }
-
+/*allows removal of bullit points*/
 aside nav ul{
 	list-style: none;
 	padding: 0; 
@@ -128,11 +129,12 @@ aside nav ul li {
 	float: left;
 	padding-left: 15px;
 }
-
+/*sets the padding from the last child */
 aside nav ul li:last-child {
 	padding-right: 0px;
 
 }
+/*makes each image size identical*/
 aside nav ul li a img {
 	width: 60px;
 	height: 60px;
@@ -145,7 +147,7 @@ form label{
 	margin-bottom: 5px;
 	display: round;
 }
-
+/*sformatting for contact form*/
 form input,
 form select,
 form textarea
@@ -159,7 +161,7 @@ form textarea
 form textarea{
 	height: auto;
 }
-
+/*submit button*/
 form #submit {
 	font-size: 15px;
 	height: 40px;
@@ -171,12 +173,12 @@ form #submit {
 	margin-right: 5px;
 	background-color: #bebebe;
 }
-
+/*changes color of submit button when you hover over it*/
 form #submit:hover {
 	background-color: #a9a9a9;
 
 }
-
+/*portfolio page*/
 figure
 {
 	margin: 0;
@@ -192,7 +194,7 @@ figure ul li {
 	height: 200px;
 	float: left;
 }
-
+/*creates two collums within the list*/
 figure ul li:nth-child(even)  {
 	padding-right: 0px;
 }
