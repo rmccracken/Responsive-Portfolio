@@ -1,4 +1,4 @@
-/*used to sticky footer at bottom of page*/
+	/*used to sticky footer at bottom of page*/
 html, body{
 	height: 100%;
 }
@@ -233,4 +233,142 @@ footer {
 	font-size: 12px;
 	text-align: center;
 
+}
+/* Media query for full size screen*/
+
+@media screen and (max-width: 980px) {
+
+	.bwidth {
+		width: 725px;
+	}
+	article {
+		width: 360px;
+		margin: 20px;
+		padding: 25px;
+	}
+	article #rob-pic {
+		margin: 0px;
+		padding-right: 5px;
+	}
+	aside {
+		width: 210px;
+		margin: 20px 0px;
+		padding: 30px;
+	}
+	figure ul li {
+		width: 100%;
+		height: 100%;
+	}
+}
+/*medium screen experiance media query*/
+@media screen and (max-width: 768px) {
+	.bwidth {
+		width: 640px;
+		margin: 0 auto;
+		padding: 10px 0px;
+	}
+	header h1
+		{ height: 80PX;
+	}
+	article,
+	aside {
+		width: 550px;
+	}
+	article {
+		margin: 10px auto;
+	}
+	article #rob-pic {
+		margin: 0px 25px 15px 0px;
+	}
+
+	aside {
+		float: left;
+		margin: 20px auto;
+	}
+
+	figure ul li {
+	width: 275px;
+	height: 200px;
+	padding: 12px 28px 44px 0px;
+}
+
+@media screen and (max-width: 640px) {
+
+	.wrapper {
+		width: 400px;
+		padding: 0px;
+	}
+
+	header {
+		width: 100%;
+		text-align: center;
+	}
+	header h1 {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	header nav {
+		width: 100%;
+		top: 0px;
+		float: left;
+		background-color: #ffffff;
+	}
+	header nav ul {
+		display: inline-block;
+		padding: 20px;
+	}
+	header nav ul li a {
+		padding: 0px 26px;
+	}
+	article,
+	aside {
+		width: 340px;
+	}
+	article #profile-image {
+		width: 100%;
+		height: 100%;
+		margin: 0px 0px 12px 0px;
+	}
+	figure ul li {
+		width: 100%;
+		height: 100%;
+	}
+}
+/*small screen experiance media query*/
+@media screen and (max-width: 640px) {
+	.bwidth {
+		width: 400px;
+		padding: 0px;
+	}
+	header {
+		width: 100%;
+		text-align: center;
+	}
+	header h1 {
+		width: 100%;
+		height: 92px;
+		margin: 0px;
+		padding: 0px;
+	}
+	header nav {
+		width: 100%;
+		top: 0px;
+		float: left;
+		background-color: #ffffff;
+	}
+
+	article,
+	aside {
+		width: 350px;
+	}
+	article #rob-pic {
+		width: 100%;
+		height: 100%;
+		margin: 0px 0px 12px 0px;
+	}
+	figure ul li {
+		width: 100%;
+		height: 100%;
+	}
 }
